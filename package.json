@@ -1,0 +1,15 @@
+{
+  "name": "i3displaymessage",
+  "version": "1.0.0",
+  "main": "i3displaymessage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
