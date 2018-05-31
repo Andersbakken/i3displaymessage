@@ -67,7 +67,7 @@ fs.readdir(dir, (err, files) => {
                         message.full_text = message.full_text.replace(/\n/g, " ");
                     // console.log("shit", f, "a", message, "b", data, "c", timeout);
                     if (!argv["no-unlink"])
-                        fs.unlink(f);
+                        fs.unlinkSync(f);
                     if (message.full_text) {
                         var id = ++idx;
                         messages[id] = message;
